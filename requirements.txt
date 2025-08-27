@@ -1,0 +1,14 @@
+# Core command-line tools
+fastqc
+trim-galore
+multiqc
+salmon>=1.10.0
+sra-tools
+
+# R packages (install from CRAN/Bioconductor)
+R (>=4.2.0)
+DESeq2
+tximport
+readr
+pheatmap
+ggplot2
