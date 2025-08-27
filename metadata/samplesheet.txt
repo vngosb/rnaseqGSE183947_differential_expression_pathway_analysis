@@ -1,0 +1,5 @@
+sample_id	condition	replicate
+SRR15852393	tumor	1
+SRR15852394	tumor	2
+SRR15852423	control	1
+SRR15852424	control	2
