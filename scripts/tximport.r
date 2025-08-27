@@ -6,9 +6,9 @@ suppressMessages(library(readr))
 
 
 # Set paths
-salmon_dir <- "/Users/vngosb/Projects/rnaseq_GSE183947/results/salmon"
-tx2gene_file <- "/Users/vngosb/Projects/rnaseq_GSE183947/data/reference/tx2gene.csv"
-out_file <- "/Users/vngosb/Projects/rnaseq_GSE183947/results/gene_counts_matrix.tsv"
+salmon_dir <- "results/salmon"
+tx2gene_file <- "data/reference/tx2gene.csv"
+out_file <- "results/gene_counts_matrix.tsv"
 
 # Collect all quant.sf files
 files <- list.files(salmon_dir, pattern = "quant.sf", full.names = TRUE, recursive = TRUE)
