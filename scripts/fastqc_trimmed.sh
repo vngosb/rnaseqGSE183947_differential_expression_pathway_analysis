@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set paths
-DATA_DIR="rnaseq_GSE183947/data/trimmed"
-OUT_DIR="rnaseq_GSE183947/data/qc_trimmed"
+DATA_DIR="data/trimmed"
+OUT_DIR="data/qc_trimmed"
 
 # Create output directory if it doesn’t exist
 mkdir -p $OUT_DIR
