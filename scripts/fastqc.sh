@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set paths
-DATA_DIR="rnaseq_GSE183947/data/fastq"
-OUT_DIR="rnaseq_GSE183947/results/qc"
+DATA_DIR="data/fastq"
+OUT_DIR="results/qc"
 
 # Create output directory if it doesn’t exist
 mkdir -p $OUT_DIR
