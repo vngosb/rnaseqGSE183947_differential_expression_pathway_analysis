@@ -7,9 +7,9 @@ suppressMessages(library(EnhancedVolcano))
 suppressMessages(library(pheatmap))
 
 # Set paths
-counts_file <- "/Users/vngosb/Projects/rnaseq_GSE183947/results/gene_counts_matrix.tsv"
-metadata_file <- "/Users/vngosb/Projects/rnaseq_GSE183947/data/metadata/samplesheet.txt"
-out_dir <- "/Users/vngosb/Projects/rnaseq_GSE183947/results/deseq2"
+counts_file <- "results/gene_counts_matrix.tsv"
+metadata_file <- "metadata/samplesheet.txt"
+out_dir <- "rnaseq_GSE183947/results/deseq2"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
