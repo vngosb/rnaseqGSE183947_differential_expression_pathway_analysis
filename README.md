@@ -1,7 +1,9 @@
 # RNA-seq Differential Expression & Pathway Analysis
 
-This project demonstrates a complete RNA-seq analysis pipeline from raw sequencing reads to differential expression results, using public data from **GSE183947**.  
-It showcases core bioinformatics skills: reproducible pipelines, QC, read quantification, and statistical analysis with **DESeq2**.
+This project demonstrates a complete RNA-seq analysis pipeline from raw sequencing reads to differential expression results, using public data for **GSE183947**.  
+It showcases core bioinformatics skills: reproducible pipelines, QC, read quantification, and statistical analysis.
+
+**Note:** For this project, the number of replicates for both normal and tumor samples was reduced to **2 each** to simplify analysis. The workflow is fully scalable to include more replicates.
 
 ---
 
@@ -76,15 +78,32 @@ See `requirements.txt` for a full list. Key tools used:
 ### Running the pipeline
 
 ```bash
+### ⚙️ Running the Pipeline
+
+Clone the repository and run the analysis in the following order:
+
+```bash
 # Clone the repo
 git clone https://github.com/vngosb/rnaseq_GSE183947.git
-cd rnaseq_GSE183947
+cd rnaseq_GSE183947 
 
 # Download raw FASTQ files (not included here)
 bash scripts/download_fastqs.sh
 
-# Run Salmon quantification
+# Initial quality control
+bash scripts/fastqc.sh
+
+# Trim reads
+bash scripts/trim.sh
+
+# QC after trimming
+bash scripts/fastqc_trimmed.sh
+
+# Quantify reads with Salmon
 bash scripts/salmon.sh
 
-# Run DESeq2 analysis in R
+# Import transcript-level quantification into R
+Rscript scripts/tximport.r
+
+# Run differential expression analysis with DESeq2
 Rscript scripts/deseq2.r
