@@ -2,9 +2,9 @@
 set -e
 
 # Set paths
-TRIM_DIR="/Users/vngosb/Projects/rnaseq_GSE183947/data/trimmed"
-SALMON_INDEX="/Users/vngosb/Projects/rnaseq_GSE183947/data/reference/salmon_index"
-OUT_DIR="/Users/vngosb/Projects/rnaseq_GSE183947/rnaseq_GSE183947/results/salmon"
+TRIM_DIR="data/trimmed"
+SALMON_INDEX="data/reference/salmon_index"
+OUT_DIR="results/salmon"
 
 mkdir -p "$OUT_DIR"
 
