@@ -8,30 +8,27 @@ It showcases core bioinformatics skills: reproducible pipelines, QC, read quanti
 ## 📂 Project Structure
 
 rnaseq_GSE183947/
-│── metadata/ # metadata and sample information
-│ ├── SRR_Acc_List.txt
-│ ├── SraRunTable.csv
-│ ├── samplesheet.txt
-│
-│── scripts/ # reproducible pipeline scripts
-│ ├── deseq2.r
-│ ├── download_fastqs.sh
-│ ├── fastqc.sh
-│ ├── fastqc_trimmed.sh
-│ ├── salmon.sh
-│ ├── trim.sh
-│ ├── tximport.r
-│
-│── results/
-│ └── deseq2/
-│ ├── DESeq2_results.csv
-│ ├── PCA_plot.png
-│ ├── Heatmap_top30.png
-│ └── Volcano_plot.png
-│
-│── requirements.txt # software + package dependencies
-│── rnaseq_analysis.ipynb # polished report notebook
-│── README.md # project overview
+- **metadata/**               # metadata and sample information
+  - SRR_Acc_List.txt
+  - SraRunTable.csv
+  - samplesheet.txt
+- **scripts/**                # reproducible pipeline scripts
+  - deseq2.r
+  - download_fastqs.sh
+  - fastqc.sh
+  - fastqc_trimmed.sh
+  - salmon.sh
+  - trim.sh
+  - tximport.r
+- **results/**
+  - **deseq2/**
+    - DESeq2_results.csv
+    - PCA_plot.png
+    - Heatmap_top30.png
+    - Volcano_plot.png
+- requirements.txt            # software + package dependencies
+- rnaseq_analysis.ipynb       # polished report notebook
+- README.md                   # project overview
 
 
 ---
