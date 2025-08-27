@@ -64,7 +64,7 @@ Full differential expression results are in:
 
 ---
 
-## ⚙️ Reproducibility
+##  Reproducibility
 
 ### Dependencies
 
@@ -77,7 +77,7 @@ See `requirements.txt` for a full list. Key tools used:
 ### Running the pipeline
 
 ```bash
-### ⚙️ Running the Pipeline
+###  Running the Pipeline
 
 Clone the repository and run the analysis in the following order:
 
