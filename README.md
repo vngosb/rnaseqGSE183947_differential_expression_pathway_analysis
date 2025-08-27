@@ -31,7 +31,7 @@ rnaseq_GSE183947/
 Workflow Overview
 [INSERT IMAGE]
 Visualization
-PCA plot (sample clustering) ![Alt text](results/PCA_plot.png)
+PCA plot (sample clustering) ![Alt text](./results/PCA_plot.png)
 Heatmap (top 30 DE genes)
 Volcano plot (significant DE genes)
 📊 Results
