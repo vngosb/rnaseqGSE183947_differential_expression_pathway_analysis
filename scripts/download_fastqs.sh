@@ -2,8 +2,8 @@
 set -e
 
 # Set paths
-FASTQ_DIR="rnaseq_GSE183947/data/fastq"
-SRR_LIST="rnaseq_GSE183947/data/metadata/SRR_Acc_List.txt"
+FASTQ_DIR="data/fastq"
+SRR_LIST="metadata/SRR_Acc_List.txt"
 
 mkdir -p "$FASTQ_DIR"
 
