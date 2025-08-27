@@ -1,7 +1,6 @@
 # RNA-seq Differential Expression & Pathway Analysis
 
-This project demonstrates a complete RNA-seq analysis pipeline from raw sequencing reads to differential expression results, using public data for **GSE183947**.  
-It showcases core bioinformatics skills: reproducible pipelines, QC, read quantification, and statistical analysis.
+This project demonstrates a complete RNA-seq analysis pipeline from raw sequencing reads to differential expression results, using public data for **GSE183947**. It showcases core bioinformatics skills: reproducible pipelines, QC, read quantification, and statistical analysis.
 
 **Note:** For this project, the number of replicates for both normal and tumor samples was reduced to **2 each** to simplify analysis. The workflow is fully scalable to include more replicates.
 
@@ -10,11 +9,11 @@ It showcases core bioinformatics skills: reproducible pipelines, QC, read quanti
 ## 📂 Project Structure
 
 rnaseq_GSE183947/
-- **metadata/**               # metadata and sample information
+- **metadata/**              
   - SRR_Acc_List.txt
   - SraRunTable.csv
   - samplesheet.txt
-- **scripts/**                # reproducible pipeline scripts
+- **scripts/**               
   - deseq2.r
   - download_fastqs.sh
   - fastqc.sh
@@ -28,9 +27,9 @@ rnaseq_GSE183947/
     - PCA_plot.png
     - Heatmap_top30.png
     - Volcano_plot.png
-- requirements.txt            # software + package dependencies
-- rnaseq_analysis.ipynb       # polished report notebook
-- README.md                   # project overview
+- requirements.txt            
+- rnaseq_analysis.ipynb       
+- README.md                   
 
 
 ---
