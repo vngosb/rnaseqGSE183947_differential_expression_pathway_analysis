@@ -36,7 +36,7 @@ rnaseq_GSE183947/
 
 ## Workflow Overview
 
-![Workflow Overview](./rnaseq_workflow.png)
+![Workflow Overview](./workflow.png)
 
 ---
 
