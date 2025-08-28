@@ -1,4 +1,4 @@
-# RNA-seq Differential Expression & Pathway Analysis
+# RNA-seq Differential Expression
 
 This project demonstrates a complete RNA-seq analysis pipeline from raw sequencing reads to differential expression results, using public data for **GSE183947**. It showcases core bioinformatics skills: reproducible pipelines, QC, read quantification, and statistical analysis.
 
@@ -95,7 +95,7 @@ bash scripts/fastqc.sh
 # Trim reads
 bash scripts/trim.sh
 
-# QC after trimming
+# Quality control after trimming
 bash scripts/fastqc_trimmed.sh
 
 # Quantify reads with Salmon
